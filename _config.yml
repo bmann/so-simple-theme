@@ -78,6 +78,7 @@ tag_archive_path: "/tags/#"
 #
 indiekit:
   micropub_server: bmann-indiekit.herokuapp.com
+  auth_service: https://github.com/bmann
 
 
 
