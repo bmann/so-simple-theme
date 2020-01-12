@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 # 
 theme: jekyll-theme-so-simple
-# remote_theme: https://github.com/bmann/so-simple-theme@indieweb-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "So Simple IndieWeb Sample Site"
@@ -70,12 +69,17 @@ tag_archive_path: "/tags/#"
 #   - vendor/gems/
 #   - vendor/ruby/
 
+## REMOTE THEME SUPPORT
+# plugins:
+#  - jekyll-remote-theme
+# remote_theme: https://github.com/bmann/so-simple-theme@indieweb-theme
+
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-remote-theme
 
 # Collections
 collections:
